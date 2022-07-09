@@ -1,0 +1,20 @@
+<div class="container">
+  <figure>
+    <img
+      [src]="image.url"
+      [alt]="image.alt"
+      [title]="image.alt"
+      [hidden]="isHidden"
+    />
+    <figcaption>{{ image.alt }}</figcaption>
+  </figure>
+</div>
+<div class="container">
+  <input [(ngModel)]="image.alt" class="form-control col-12" type="text" />
+</div>
+<hr />
+<div class="container">
+  <button class="btn btn-success bg-warning button-style" (click)="log()">
+    click to Hide/show
+  </button>
+</div>
