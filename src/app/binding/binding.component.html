@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container mt-5 center">
   <figure>
     <img
       [src]="image.url"
@@ -13,8 +13,8 @@
   <input [(ngModel)]="image.alt" class="form-control col-12" type="text" />
 </div>
 <hr />
-<div class="container">
-  <button class="btn btn-success bg-warning button-style" (click)="log()">
+<div class="container center">
+  <button class="btn btn-success bg-warning button-style" (click)="toggle()">
     click to Hide/show
   </button>
 </div>

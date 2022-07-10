@@ -15,7 +15,4 @@ export class BindingComponent {
   toggle() {
     this.isHidden = !this.isHidden;
   }
-  log() {
-    this.toggle();
-  }
 }
